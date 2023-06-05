@@ -29,7 +29,7 @@ const ValidateForm = () => {
             setSubmitting(true);
             localStorage.setItem('formData', JSON.stringify(values));
             setSubmitting(false);
-            alert("Данные успешно отправлены");
+            alert("Данные успешно отправлены. Содержимое находится в LOCAL STORAGE");
             resetForm();
           }}
     >
